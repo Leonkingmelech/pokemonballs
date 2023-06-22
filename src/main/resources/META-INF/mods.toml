@@ -3,14 +3,14 @@ loaderVersion="[45,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="gyoza"
+modId="pokeballs"
 version="1.0.0"
 displayName="Gyoza"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="Leon, MCreator"
 
-[[dependencies.gyoza]]
+[[dependencies.pokeballs]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.4]"
