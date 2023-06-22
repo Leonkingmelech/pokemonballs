@@ -1,0 +1,164 @@
+{
+  "mod_elements": [
+    {
+      "name": "GyozaEntityDies",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyoza_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gyoza/procedures/GyozaEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gyoza",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyoza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gyoza/entity/GyozaEntity.java",
+          "src/main/java/net/mcreator/gyoza/client/renderer/GyozaRenderer.java",
+          "src/main/resources/assets/gyoza/models/item/gyoza_spawn_egg.json",
+          "src/main/resources/data/gyoza/forge/biome_modifier/gyoza_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gyoza/procedures/LightningProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightning",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gyoza/models/item/lightning.json",
+          "src/main/java/net/mcreator/gyoza/item/LightningItem.java",
+          "src/main/java/net/mcreator/gyoza/entity/LightningEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Apalugi",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apalugi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gyoza/client/renderer/ApalugiRenderer.java",
+          "src/main/java/net/mcreator/gyoza/entity/ApalugiEntity.java",
+          "src/main/resources/assets/gyoza/models/item/apalugi_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Amita",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amita",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gyoza/forge/biome_modifier/amita_biome_modifier.json",
+          "src/main/resources/assets/gyoza/models/item/amita_spawn_egg.json",
+          "src/main/java/net/mcreator/gyoza/entity/AmitaEntity.java",
+          "src/main/java/net/mcreator/gyoza/client/renderer/AmitaRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.gyoza.lightning": "Lightning",
+      "entity.gyoza.amita": "Amita",
+      "item.gyoza.gyoza_spawn_egg": "Gyoza Spawn Egg",
+      "entity.gyoza.apalugi": "Apalugi",
+      "item.gyoza.amita_spawn_egg": "Amita Spawn Egg",
+      "entity.gyoza.gyoza": "Gyoza",
+      "item.gyoza.apalugi_spawn_egg": "Apalugi Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gyoza",
+    "modName": "Gyoza",
+    "version": "1.0.0",
+    "author": "Leon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.gyoza",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
